@@ -2,14 +2,13 @@
 This application creates a Flare Build project from a number of Flare projets by copying and fetching all necessary files.
 
 # Getting Started
-1.	Installation process: Not yet defined. Currently the program runs in debug mode from visual studio. 
+1.	Installation process: Not necessary.
 2.	Software dependencies: If you want to create output you need a flare compiler istalled.
 	madbuild.exe must be defined in your PATH variable
 3.	Latest releases: Not defined.
 4.	API references: Not defined.
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
 Command Line arguments:
 1: Build type. Possible values:
 -V4Help
