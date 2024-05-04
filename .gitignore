@@ -1,0 +1,28 @@
+# VS 19
+**/.vs/*
+
+# Temp files
+*.bin
+*.cache
+*.lastbuildstate
+*.log
+*.obj
+*.opensdf
+*.pch
+*.pdb
+*.res
+*.sdf
+*.suo
+*.tlog
+*.unsuccessfulbuild
+*.v12.suo
+*.bak
+*.exp
+*.user
+
+**/Debug
+**/Release
+**/ConsoleApp1/publish
+**/ConsoleApp1/bin
+**/ConsoleApp1/obj
+

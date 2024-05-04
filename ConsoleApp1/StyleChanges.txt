@@ -1,0 +1,36 @@
+FILE: \Skins\Default\Stylesheets\Components\Styles.css
+STYLE:
+._Skins_TopicToolBar.mc-component .button:
+CHANGE:
+border-bottom: solid 1px #e1e1e1; --> border-bottom: solid 0px #e1e1e1;
+STYLE:
+._Skins_TopicToolBar.mc-component .button.goto-last-topic-button
+CHANGE:
+border-bottom: solid 1px #e1e1e1; --> border-bottom: solid 0px #e1e1e1;
+STYLE:
+._Skins_TopicToolBar.mc-component .button.goto-next-topic-button
+CHANGE:
+border-bottom: solid 1px #e1e1e1; --> border-bottom: solid 0px #e1e1e1;
+
+FILE: \Skins\Default\Stylesheets\TextEffects.css
+STYLE:
+.button-group-container-left
+CHANGE:
+margin-left: -4px; --> margin-left: -210px;
+ADD:
+	margin-top: -28px;
+	height: 25px;
+	background-color:red;
+	position:fixed;
+					   
+FILE: \Skins\Default\Stylesheets\Topic.css
+STYLE:
+div.MCBreadcrumbsBox_0
+ADD:
+	position: fixed;
+	background-color: white;
+	width: 634px;
+	height: 25px;
+	margin-top: -28px;
+	padding-bottom: 3px;
+	border-bottom: none 0px white;

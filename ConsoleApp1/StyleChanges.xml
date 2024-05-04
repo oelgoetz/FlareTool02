@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OutputStyleMods>
+	<Stylesheet Name="\Skins\Default\Stylesheets\Components\Styles.css">
+		<Style Name="._Skins_TopicToolBar.mc-component .button">
+			<Old>border-bottom: solid 1px #e1e1e1;</Old>
+			<New>border-bottom: solid 0px #e1e1e1;</New>
+		</Style>
+		<Style Name="._Skins_TopicToolBar.mc-component .button.goto-last-topic-button">
+			<Old>border-bottom: solid 1px #e1e1e1;</Old>
+			<New>border-bottom: solid 0px #e1e1e1;</New>
+		</Style>
+		<Style Name="._Skins_TopicToolBar.mc-component .button.goto-next-topic-button">
+			<Old>border-bottom: solid 1px #e1e1e1;</Old>
+			<New>border-bottom: solid 0px #e1e1e1;</New>
+		</Style>
+	</Stylesheet>
+	<Stylesheet Name="\Skins\Default\Stylesheets\TextEffects.css">
+		<Style Name=".button-group-container-left">
+			<Old>margin-left: -4px;</Old>
+			<New>margin-left: -210px;</New>
+			<Add>margin-top: -28px;</Add>
+			<Add>height: 25px;</Add>
+			<Add>background-color: #ffffff;</Add>
+			<Add>position:fixed;</Add>
+		</Style>
+	</Stylesheet>
+	<Stylesheet Name="\Skins\Default\Stylesheets\Topic.css">
+		<Style Name="div.MCBreadcrumbsBox_0">
+			<Add>position: fixed;</Add>
+			<Add>background-color: white;</Add>
+			<Add>width: 634px;</Add>
+			<Add>height: 25px;</Add>
+			<Add>margin-top: -28px;</Add>
+			<Add>padding-bottom: 3px;</Add>
+			<Add>border-bottom: none 0px white;</Add>
+		</Style>
+	</Stylesheet>
+</OutputStyleMods>

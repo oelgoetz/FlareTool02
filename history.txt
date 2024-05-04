@@ -1,0 +1,12 @@
+29.07.2022
+program now gets over:
+
+external image links in topics:
+repaired in the SOURCE -if possible 
+by: 
+- copying the external image (icncluding .props)
+- making the img:src Attribute local in the Topic
+
+missing TocEntries: 
+repaired in the SOURCE 
+by applying conditions="Default.NotYetTranslated"
