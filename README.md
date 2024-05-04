@@ -10,20 +10,13 @@ This application creates a Flare Build project from a number of Flare projets by
 
 # Build and Test
 Command Line arguments:
-1: Build type. Possible values:
--V4Help
--GLHelp
-2: Repository. Possible values:
-(This may depend on the path where your repositories are stored locally. It is assumed that they all are direct children of C:\)
--docu: git master
--docuR2022, docuR2020, docuR2019 and so on ...
+1: Build type (currently V4Help/GLHelp)
+2: Path where the source projects are (and where the build project will be merged to)
 3: Language. Possible values: 00 01 02 03 ... 17 is only available for GLHelp
-4: The Flare project where the master target and toc file are located
+4: The Flare project where the master target and toc file are located, e.g. Main
 5: Shut the Console window when done. Possible values:
 -quit
 -wait
-
-Other parameters are defined in the source code.
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
